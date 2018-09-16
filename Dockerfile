@@ -9,3 +9,4 @@ RUN         apt-get update \
                 && apt-get install -y make \
                 && apt-get install -y g++
 RUN export WORDSIZE=64 && sh /tmp/uCPP/u++-7.0.0.sh
+RUN ln -s /usr/bin/g++ /usr/bin/g++-8
