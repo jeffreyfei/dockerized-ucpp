@@ -9,7 +9,7 @@
 sh build.sh
 ```
 
-### Using the docker compose
+### Usage
 1) Add the docker compose to your local top level folder
 2) Move all of your development code into a directory `/src`
 3) Run the following:
