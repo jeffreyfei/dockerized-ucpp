@@ -1,0 +1,9 @@
+version: '3'
+services:
+    ucpp-env:
+        build: .
+        volumes:
+            - ./src:/dev/src
+         
+      
+       
