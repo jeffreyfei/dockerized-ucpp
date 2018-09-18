@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPO_URL=https://github.com/pabuhr/uCPP.git
-IMAGE_NAME=ucpp:dev
+IMAGE_NAME=jeffreyfei/ucpp:dev
 
 rm -rf uCPP
 
